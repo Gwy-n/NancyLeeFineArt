@@ -974,7 +974,7 @@ main {
     .aboutDesc{
         font-family: tajFont;
         font-size: clamp(10px, 2vw, 12px);
-
+        padding-top: 1%;
     }
 
     .aboutBox1{
