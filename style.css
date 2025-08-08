@@ -1145,6 +1145,10 @@ main {
         font-size: clamp(14px, 3vw, 16px);
     }
 
+    .swiper-pagination-bullet {
+      width: 7px;
+      height: 7px; 
+    }
 
 
 
