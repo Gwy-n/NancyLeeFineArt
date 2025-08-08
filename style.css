@@ -747,6 +747,39 @@ main {
 
 }
 
+.tranding-slide-desc{
+  font-family: tajFont;
+  font-size: 18px;
+  position: absolute;
+  width: inherit;
+  text-align: center;
+  bottom:-2.5rem;
+  right: 5rem;
+  line-height: 1.3;
+  left: 5rem;
+  color: #000000;
+}
+
+.tranding-slide-desc-long{
+  font-family: tajFont;
+  font-size: 18px;
+  position: absolute;
+  width: inherit;
+  text-align: center;
+  bottom:-2.5rem;
+  right: 5rem;
+  line-height: 1.3;
+  left: 5rem;
+  color: #000000;
+}
+
+.tranding-slide-title{
+    font-family: tgFont, Arial, sans-serif; 
+    font-size: 20px; 
+    margin:0;
+    color: #000000;
+}
+
 
 .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
@@ -755,15 +788,15 @@ main {
 
 .tranding-slider-control {
   position: relative;
-  bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  bottom: 3rem;
 }
 
 .tranding-slider-control .swiper-button-next {
-  left: 58% !important;
-  transform: translateX(-58%) !important;
+  left: 68% !important;
+  transform: translateX(-68%) !important;
 }
 
 .tranding-slider-control .slider-arrow {
@@ -771,31 +804,39 @@ main {
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
-  left: 42%;
-  transform: translateX(-42%);
+  left: 32%;
+  transform: translateX(-32%);
 }
 
 .tranding-slider-control .slider-arrow ion-icon {
   font-size: 3rem;
-  color: #363636;
+  color: #000000;
 }
 
 .tranding-slider-control .slider-arrow::after {
   content: '';
 }
 
-.tranding-slider-control .swiper-pagination {
+.tranding-slider-control-page {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tranding-slider-control-page  .swiper-pagination {
   position: relative;
   width: 15rem;
   bottom: 2rem;
 }
 
-.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+.tranding-slider-control-page  .swiper-pagination .swiper-pagination-bullet {
   filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
 }
 
-.tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
-  background: var(--primary);
+.tranding-slider-control-page  .swiper-pagination .swiper-pagination-bullet-active {
+  background: #4e4e4e;;
 }
 
 
@@ -924,10 +965,10 @@ main {
 
     .aboutTitle{
         font-family: tgFont;
-        letter-spacing: 3px;
+        letter-spacing: 2.5px;
         font-size: clamp(14px, 3vw, 24px);
         margin: 0;
-
+        line-height: 1.2;
     }
 
     .aboutDesc{
@@ -1072,13 +1113,36 @@ main {
     }
 
     .tranding-slider-control .swiper-button-next {
-      left: 70% !important;
-      transform: translateX(-70%) !important;
+      left: 84% !important;
+      transform: translateX(-84%) !important;
     }
 
     .tranding-slider-control .swiper-button-prev {
-      left: 30% !important;
-      transform: translateX(-30%) !important;
+      left: 16% !important;
+      transform: translateX(-16%) !important;
+    }
+
+    .tranding-slider-control .slider-arrow {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+    
+    .tranding-slide-desc{
+      font-family: tajFont;
+      font-size: clamp(12px, 2vw, 12px);
+      bottom:-1.5rem;
+      line-height: 1.3;
+    }
+
+    .tranding-slide-desc-long{
+      font-size: clamp(12px, 2vw, 12px);
+      bottom:-2rem;
+      line-height: 1.3;
+    }
+
+    .tranding-slide-title{
+        font-family: tgFont, Arial, sans-serif; 
+        font-size: clamp(14px, 3vw, 16px);
     }
 
 
