@@ -930,8 +930,12 @@ main {
       padding-bottom: 5%;
     }
 
-    .homeButton {
+    #homeWorksDesc{
+      padding-top: 2%;
+      padding-bottom: 0;
+    }
 
+    .homeButton {
       font-size: 10px;
       padding: 8px 35px;
       text-decoration: none;
